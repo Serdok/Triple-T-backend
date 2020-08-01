@@ -104,8 +104,26 @@ router.patch('/:id', async (req, res) => {
     try {
         // Only care about 'tiles' and 'xIsNext' properties
         const update = {
-            ...(req.body.tiles && {tiles: req.body.tiles}),
-            ...(req.body.xIsNext && {xIsNext: req.body.xIsNext}),
+            ...(req.body.tiles && { tiles: req.body.tiles }),
+            ...(req.body.xIsNext && { xIsNext: req.body.xIsNext }),
+        };
+        if (Object.keys(update).length === 0) {
+            // No fields to update
+            // Send the requested game back to the caller
+            const snapshot = await firestore.get(db.collection('games'), req.params.id);
+            if (!snapshot) {
+                // Document not found
+                const err = `Game ID '${req.params.id}' not found`;
+                console.error(err);
+                res.status(404).json({
+                    code: 404,
+                    name: 'NotFound',
+                    description: err,
+                });
+                return;
+            }
+            res.status(304); // Not Modified
+            return;
         }
 
         // Update the game
