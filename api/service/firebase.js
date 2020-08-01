@@ -1,5 +1,14 @@
 const functions = require('firebase-functions');
-const config = functions.config().triple_t;
+const config = {
+    apiKey: "AIzaSyA4-iPqaaVNzsyP_S7RzOvtHMtTVdCrNnw",
+    authDomain: "triple-t-e2e24.firebaseapp.com",
+    databaseURL: "https://triple-t-e2e24.firebaseio.com",
+    projectId: "triple-t-e2e24",
+    storageBucket: "triple-t-e2e24.appspot.com",
+    messagingSenderId: "133026401644",
+    appId: "1:133026401644:web:fb19e1cb86f73aaeb97749",
+    measurementId: "G-TN3STENB4J"
+};
 
 const isDev = process.env.FUNCTIONS_EMULATOR;
 let app;
