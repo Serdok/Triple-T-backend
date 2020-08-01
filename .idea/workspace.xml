@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="22e081c3-2d52-4ed8-82ec-3b18d91ed2de" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1fRgF9cxl8TKqgJ9G29oqRiTarn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.12.53" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RunManager" selected="npm.npm run start">
+    <configuration name="npm run start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.bin/www" />
+      <item itemvalue="npm.npm run start" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22e081c3-2d52-4ed8-82ec-3b18d91ed2de" name="Default Changelist" comment="" />
+      <created>1596186212370</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596186212370</updated>
+      <workItem from="1596186213412" duration="116000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="211" width="1084" height="709" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596186291982">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="418" y="211" width="1084" height="709" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1596186291982" />
+    <state width="1899" height="268" key="GridCell.Tab.0.bottom" timestamp="1596186328590">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1899" height="268" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1596186328590" />
+    <state width="1899" height="268" key="GridCell.Tab.0.center" timestamp="1596186328590">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1899" height="268" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1596186328590" />
+    <state width="1899" height="268" key="GridCell.Tab.0.left" timestamp="1596186328590">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1899" height="268" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1596186328590" />
+    <state width="1899" height="268" key="GridCell.Tab.0.right" timestamp="1596186328590">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1899" height="268" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1596186328590" />
+  </component>
+</project>
