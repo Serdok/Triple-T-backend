@@ -10,9 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22e081c3-2d52-4ed8-82ec-3b18d91ed2de" name="Default Changelist" comment=":tada: Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="22e081c3-2d52-4ed8-82ec-3b18d91ed2de" name="Default Changelist" comment=":wrench: Added .idea/ directory to .gitignore">
       <change beforePath="$PROJECT_DIR$/api/routes/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/routes/game.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/service/firebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/api/service/firebase.js" afterDir="false" />
     </list>
@@ -21,6 +19,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager" show_ignored="true" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -67,8 +66,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.Deploy" />
       <item itemvalue="npm.Firebase Emulator" />
+      <item itemvalue="npm.Deploy" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -89,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596308753895</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=":wrench: IDE workplace tweaks">
+      <created>1596311431762</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596311431762</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,10 +111,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=":tada: Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value=":tada: Initial commit" />
+    <MESSAGE value=":wrench: IDE workplace tweaks" />
+    <option name="LAST_COMMIT_MESSAGE" value=":wrench: IDE workplace tweaks" />
   </component>
   <component name="WindowStateProjectService">
     <state x="7" y="71" width="1084" height="782" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596309219919">
@@ -119,6 +127,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1173" y="303" width="524" height="508" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1596310661774" />
+    <state x="209" y="56" width="1638" height="1001" key="CommitChangelistDialog2" timestamp="1596311431730">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="209" y="56" width="1638" height="1001" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1596311431730" />
     <state x="374" y="121" width="1536" height="879" key="DiffContextDialog" timestamp="1596308765663">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -143,6 +155,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="928" y="188" width="992" height="737" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1596309030410" />
+    <state x="1289" y="464" width="292" height="186" key="VCS.ChangelistChooser" timestamp="1596311333025">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1289" y="464" width="292" height="186" key="VCS.ChangelistChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1596311333025" />
     <state x="1035" y="285" width="800" height="543" key="Vcs.Push.Dialog.v2" timestamp="1596309032796">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
