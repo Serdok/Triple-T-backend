@@ -67,8 +67,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="npm.Firebase Emulator" />
       <item itemvalue="npm.Deploy" />
+      <item itemvalue="npm.Firebase Emulator" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
