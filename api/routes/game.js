@@ -108,25 +108,13 @@ router.patch('/:id', async (req, res) => {
             ...(req.body.xIsNext && { xIsNext: req.body.xIsNext }),
         };
         if (Object.keys(update).length === 0) {
-            // No fields to update
-            // Send the requested game back to the caller
-            const snapshot = await firestore.get(db.collection('games'), req.params.id);
-            if (!snapshot) {
-                // Document not found
-                const err = `Game ID '${req.params.id}' not found`;
-                console.error(err);
-                res.status(404).json({
-                    code: 404,
-                    name: 'NotFound',
-                    description: err,
-                });
-                return;
-            }
-            res.status(304); // Not Modified
+            // No fields to update, the caller still has the previous state of the game
+            res.status(204).end(); // Success, No Content
             return;
         }
 
         // Update the game
+        update.updateTime = moment().format();
         const snapshot = await firestore.update(db.collection('games'), req.params.id, update);
         if (!snapshot) {
             // Document not found
@@ -153,8 +141,8 @@ router.patch('/:id', async (req, res) => {
 // Delete a game
 router.delete('/:id', async (req, res) => {
     try {
-        await firestore.delete(db.collection('games'));
-        res.status(200);
+        await firestore.delete(db.collection('games'), req.params.id);
+        res.status(200).end();
     } catch (err) {
         errorHandler(err);
     }
