@@ -10,6 +10,8 @@ firebase-debug.log*
 .firebase/
 
 # Firebase config
+.firebase_config.json
+.google_credentials.json
 .runtimeconfig.json
 
 # Uncomment this if you'd like others to create their own Firebase project.

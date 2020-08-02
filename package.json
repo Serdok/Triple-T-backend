@@ -6,7 +6,9 @@
     "serve": "firebase emulators:start --only functions,firestore",
     "shell": "firebase functions:shell",
     "start": "npm run shell",
-    "deploy": "firebase deploy --only functions",
+    "deploy": "npm run env_firebase_sdk && npm run env_google_credentials && firebase deploy --only functions",
+    "env_firebase_sdk": "test -f .firebase_config.json && firebase functions:config:set triple_t=\"`cat .firebase_config.json`\"",
+    "env_google_credentials": "test -f .google_credentials.json && firebase functions:config:set credential=\"`cat .google_credentials.json`\"",
     "logs": "firebase functions:log"
   },
   "engines": {
@@ -15,6 +17,7 @@
   "dependencies": {
     "@exodus/schemasafe": "^1.0.0-rc.2",
     "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
     "debug": "~2.6.9",
     "express": "~4.16.1",
     "express-validator": "^6.6.0",
